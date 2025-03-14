@@ -1,18 +1,20 @@
 # Trần Thái Nguyên 22697051
 
-## 📝 Todo App với Django
+## Todo App với Django
 
 Ứng dụng Todo đơn giản được xây dựng bằng Django Framework, cho phép người dùng quản lý danh sách công việc cần làm.
 
-### ✨ Tính năng chính
+### Tính năng chính
 
-- 👤 Đăng ký và đăng nhập tài khoản
-- ✏️ Thêm, sửa, xóa công việc
-- ✅ Đánh dấu công việc đã hoàn thành
-- 🔍 Tìm kiếm công việc
-- 📱 Giao diện thân thiện, responsive
+- Đăng ký và đăng nhập tài khoản
+- Thêm, sửa, xóa công việc
+- Đánh dấu công việc đã hoàn thành
+- Tìm kiếm công việc
+- Giao diện thân thiện, responsive
 
-### 🚀 Hướng dẫn cài đặt
+### Hướng dẫn cài đặt
+
+Hãy chạy trên vs code để không bị lỗi
 
 1. Clone repository này về máy:
 ```bash
