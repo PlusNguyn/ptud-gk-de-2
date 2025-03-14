@@ -1,17 +1,5 @@
 # Trần Thái Nguyên 22697051
 
-## Todo App với Django
-
-Ứng dụng Todo đơn giản được xây dựng bằng Django Framework, cho phép người dùng quản lý danh sách công việc cần làm.
-
-### Tính năng chính
-
-- Đăng ký và đăng nhập tài khoản
-- Thêm, sửa, xóa công việc
-- Đánh dấu công việc đã hoàn thành
-- Tìm kiếm công việc
-- Giao diện thân thiện, responsive
-
 ### Hướng dẫn cài đặt
 
 1. Clone repository này về máy:
@@ -29,4 +17,11 @@ cd ptud-gk-de-2
 run.bat
 ```
 
-4. Truy cập ứng dụng tại địa chỉ: http://localhost:8000
+4. Truy cập ứng dụng tại địa chỉ: http://127.0.0.1:8000/
+
+### Để tạo admin hãy truy cập vào thư mục ptud-gk-de-2 (cùng cấp với manage.py) và chạy lệnh
+```bash
+py manage.py createsuperuser
+```
+
+Nhập tên đăng nhập, mật khẩu, và truy cập http://127.0.0.1:8000/admin để vào giao diện admin của django
