@@ -25,3 +25,6 @@ py manage.py createsuperuser
 ```
 
 Nhập tên đăng nhập, mật khẩu, và truy cập http://127.0.0.1:8000/admin để vào giao diện admin của django
+
+Lưu ý cần chạy lại run.bat hoặc chạy lệnh py manage.py runserver để tái khởi động
+
