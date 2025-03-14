@@ -11,9 +11,9 @@ def my_todos(request):
     user= request.user
     now = timezone.now().strftime("%Y-%m-%d")
     todos = TodoList.objects.filter(user=user) 
-    category1 = Category.objects.get(id=1) 
-    category2 = Category.objects.get(id=2) 
-    category3 = Category.objects.get(id=3) 
+    category1 = Category.objects.get(id=1, name='Business') 
+    category2 = Category.objects.get(id=2, name='Personal') 
+    category3 = Category.objects.get(id=3, name='Other') 
     
 
     user_name=request.user.username  #get username
