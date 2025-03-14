@@ -15,7 +15,8 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 echo Running Django server...
-cd Django-ToDo-AppApp
+
+cd Django-ToDo-App
 start http://127.0.0.1:8000/
 python manage.py runserver
 
