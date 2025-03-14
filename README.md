@@ -21,17 +21,14 @@ Hãy chạy trên vs code để không bị lỗi
 git clone https://github.com/PlusNguyn/ptud-gk-de-2.git
 ```
 
-2. Chạy file run.bat để tự động cài đặt và khởi động ứng dụng:
+2. Di chuyển vào thư mục ptud-gk-de-2
+```bash
+cd ptud-gk-de-2
+```
+
+3. Chạy file run.bat để tự động cài đặt và khởi động ứng dụng:
 ```bash
 run.bat
 ```
 
-3. Truy cập ứng dụng tại địa chỉ: http://localhost:8000
-
-### 🛠️ Công nghệ sử dụng
-
-- Python 3.x
-- Django Framework
-- SQLite Database
-- HTML/CSS
-- Bootstrap
+4. Truy cập ứng dụng tại địa chỉ: http://localhost:8000
