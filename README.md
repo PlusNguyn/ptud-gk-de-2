@@ -14,8 +14,6 @@
 
 ### Hướng dẫn cài đặt
 
-Hãy chạy trên vs code để không bị lỗi
-
 1. Clone repository này về máy:
 ```bash
 git clone https://github.com/PlusNguyn/ptud-gk-de-2.git
