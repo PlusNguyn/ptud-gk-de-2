@@ -1,14 +1,3 @@
-@echo off
-cd /d %~dp0
-
-echo === Kiem tra Python ===
-python --version >nul 2>&1
-if errorlevel 1 (
-    echo Khong tim thay Python. Hay cai dat Python va them vao PATH
-    pause
-    exit
-)
-
 
 echo === Kiem tra moi truong ao ===
 if not exist venv (
@@ -20,11 +9,6 @@ if not exist venv (
 
 echo === Kich hoat moi truong ao ===
 call .\venv\Scripts\activate
-if errorlevel 1 (
-    echo Loi kich hoat moi truong ao!
-    pause
-    exit
-)
 
 echo === Cai dat cac goi can thiet ===
 python -m pip install --upgrade pip
@@ -41,4 +25,3 @@ start http://127.0.0.1:8000/
 echo === Khoi dong server ===
 python manage.py runserver
 
-pause
