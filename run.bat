@@ -9,20 +9,6 @@ if errorlevel 1 (
     exit
 )
 
-echo === Kiem tra cau truc du an ===
-if not exist "Django-ToDo-App" (
-    echo Khong tim thay thu muc Django-ToDo-App!
-    echo Hay dam bao ban dang chay file run.bat dung vi tri
-    pause
-    exit
-)
-
-if not exist "Django-ToDo-App\manage.py" (
-    echo Khong tim thay file manage.py!
-    echo Hay dam bao cau truc du an Django hop le
-    pause
-    exit
-)
 
 echo === Kiem tra moi truong ao ===
 if not exist venv (
@@ -44,8 +30,6 @@ echo === Cai dat cac goi can thiet ===
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 
-echo === Di chuyen vao thu muc du an ===
-cd Django-ToDo-App
 
 echo === Thuc hien migrate database ===
 python manage.py makemigrations
